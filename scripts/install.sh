@@ -81,7 +81,7 @@ fi
 if [ "${network}" = "testnet" ]; then
     config="https://ton-blockchain.github.io/testnet-global.config.json"
     cpu_required=8
-    mem_required=16000000  # 16GB in KB
+    mem_required=6000000  
 fi
 
 # check machine configuration
