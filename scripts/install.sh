@@ -46,7 +46,7 @@ telemetry=true
 ignore=false
 dump=false
 cpu_required=16
-mem_required=64000000  # 64GB in KB
+mem_required=12000000  # 64GB in KB
 
 while getopts ":c:tida:r:b:m:n:v:u:h" flag; do
     case "${flag}" in
